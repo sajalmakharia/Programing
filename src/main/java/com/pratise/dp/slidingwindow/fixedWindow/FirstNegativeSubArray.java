@@ -1,4 +1,4 @@
-package com.pratise.dp.slidingwindow;
+package com.pratise.dp.slidingwindow.fixedWindow;
 
 import java.util.ArrayList;
 import java.util.List;
