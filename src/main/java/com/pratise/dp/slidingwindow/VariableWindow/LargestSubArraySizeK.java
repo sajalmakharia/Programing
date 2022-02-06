@@ -13,12 +13,12 @@ public class LargestSubArraySizeK {
                 j++;
             }else if(res==sum){
                 maxSize = Integer.max(j-i+1,maxSize);
+                j++;
             } else {
                 while(sum<res) {
                     res -= arr[i];
                     i++;
                 }
-
                 j++;
             }
         }
