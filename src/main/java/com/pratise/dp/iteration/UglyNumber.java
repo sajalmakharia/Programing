@@ -1,4 +1,4 @@
-package com.pratise.dp.slidingwindow.iteration;
+package com.pratise.dp.iteration;
 
 // to find the nth number whose factor can be only 2 or 3 or 5
 public class UglyNumber {

@@ -1,4 +1,4 @@
-package com.pratise.dp.slidingwindow.recursion;
+package com.pratise.dp.recursion;
 
 import java.util.ArrayList;
 import java.util.Arrays;

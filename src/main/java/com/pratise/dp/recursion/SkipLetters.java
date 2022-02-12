@@ -1,4 +1,4 @@
-package com.pratise.dp.slidingwindow.recursion;
+package com.pratise.dp.recursion;
 
 public class SkipLetters {
     public static void main(String[] args) {
