@@ -5,17 +5,17 @@ public class LargestSubArraySizeK {
         int[] arr = {1,-1,3,5,-3,5};
         int sum = 10;
         int i=0,j=0,maxSize=0;
-        int res=0;
+        int currentSum=0;
         while(j< arr.length){
-            res += arr[j];
+            currentSum += arr[j];
 
-            if(res<sum){
+            if(currentSum<sum){
                 j++;
-            }else if(res==sum){
+            }else if(currentSum==sum){
                 maxSize = Integer.max(j-i+1,maxSize);
                 j++;
             } else {
-                while(sum<res) {
+                while(sum<currentSum) {
                     res -= arr[i];
                     i++;
                 }
